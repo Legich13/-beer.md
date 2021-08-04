@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 800;
+  font-size: 90px;
+  color: #fafafa;
+}
+.dud {
+  color: #757575;
+}
+
+.container {
+  background: url(https://acegif.com/wp-content/gif/beer-66.gif)no-repeat  ;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
